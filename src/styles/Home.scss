@@ -1,0 +1,40 @@
+.home {
+  padding: 0px 10px;
+}
+
+.home-body {
+  width: 1500px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_welcome-msg {
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.home_username {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: black;
+  padding: 6px 16px;
+  border-radius: 50px;
+  color: white;
+  margin-top: 10px;
+}
+
+.home_sign-in-msg, .home_user-info-msg {
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+
+  &:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+}
